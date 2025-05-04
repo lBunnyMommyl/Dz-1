@@ -55,3 +55,11 @@ color: black;
   margin: 16px auto;
   text-align: center;
 }
+
+.card_button:hover {
+  transform: scale(1.03);
+  background-color: #2e363e;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
