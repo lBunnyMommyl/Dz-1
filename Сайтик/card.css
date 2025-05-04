@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 380px;
+  height: 582px;
+  background-color: #fff;
+  border: 2px solid #F2F6FA;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.card_img {
+  display: flex;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: auto;
+}
+
+.card_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 44px 50px;
+  gap: 24px;
+}
+
+.card_text {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+gap: 12px;
+}
+
+.card_Cost-button {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+gap: 14px;
+color: black;
+}
+
+.card_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 163px;
+  height: 68px;
+  background: #FFD700; /* Жёлтая кнопка */
+  border-radius: 6px;
+  margin: 16px auto;
+  text-align: center;
+}
